@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.example.laboratorio05.ui.movie.MovieViewModel" />
+            type="com.example.laboratorio05.ui.movie.viewmodel.MovieViewModel" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

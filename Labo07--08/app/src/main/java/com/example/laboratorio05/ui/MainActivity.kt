@@ -6,8 +6,7 @@ import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
 import com.example.laboratorio05.R
 import com.example.laboratorio05.databinding.ActivityMainBinding
-import com.example.laboratorio05.databinding.FragmentNewMovieBinding
-import com.example.laboratorio05.ui.movie.MovieViewModel
+import com.example.laboratorio05.ui.movie.viewmodel.MovieViewModel
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
