@@ -82,7 +82,7 @@ class NewCastingFragment : Fragment() {
     }
 
     private suspend fun getActorsAndLaunchSpinner() {
-        // setActorsSpinner(actorsViewModel.getAllActors())
+        setActorsSpinner(actorsViewModel.getAllActors())
     }
 
 

@@ -21,9 +21,6 @@ class CastingViewModel(private val repository: CastRepository): ViewModel() {
     fun selectMovie(movie: MovieModel) {
         movieId.value = movie.movieId.toString()
     }
-
-    fun createCasting() {}
-
     fun selectActor(actor: ActorModel) {
         actorId.value = actor.actorId.toString()
     }
@@ -32,7 +29,7 @@ class CastingViewModel(private val repository: CastRepository): ViewModel() {
             repository.addCasting(casting)
         }
     }
-/*
+
     fun createCasting() {
         if (!validateData()) {
             status.value = WRONG_INFORMATION
@@ -49,7 +46,7 @@ class CastingViewModel(private val repository: CastRepository): ViewModel() {
 
         status.value = CAST_CREATED
     }
-     */
+
 
     private fun validateData(): Boolean {
         when {
